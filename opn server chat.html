@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>OPEN CHAT SERVER</title>
+        <meta charset="en">  
+        <link rel="stylesheet" href="osc.css"> 
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" cintent="IE=edge"> 
+        <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+        <script defer src="client.js"></script>  
+         
+
+        
+    </head>
+    <body>
+        <nav>
+            <div class="front">
+            <img class="logo" src="chatlogo.png" alt="">
+            <h3>OPEN SERVER CHAT</h3>
+                </div>
+        </nav>
+        <div class="container">
+            <div class="message right">Niloy:how are you?</div>
+            <div class="message left">Rohan:I am fine</div>
+           
+        </div>
+        <div class="send">
+            <form section="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+
+    </body>
+
+</html>
